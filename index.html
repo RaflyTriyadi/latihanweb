@@ -12,34 +12,56 @@
 </head>
 
 <body>
-  
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg-fixed-top"
-  <div class="container-">
-    <a class="navbar-brand" href="#">Web Sekolah</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+  <!-- navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Beranda</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse text-right" id="navbarText">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-        
-        <li class="nav-item">
-          <a class="nav-link" href="#jurusan">Jurusan</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Profil
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="identitas.html">Identitas Sekolah</a></li>
+            <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
+             <li><a class="dropdown-item" href="visi&misi.html">Visi&Misi</a></li>
+          </ul>
+
+          <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Kesiswaan
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="Eskul.html">Eskul</a></li>
+            <li><a class="dropdown-item" href="#">h</a></li>
+             <li><a class="dropdown-item" href="#">l</a></li>
+          </ul>
+           <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#jurusan">Jurusan</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#kegiatan">Kegiatan</a>
+          <a class="nav-link" href="#ekstrakurikuler">Ekstrakurikuler</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#galeri">Galeri</a>
+          <a class="nav-link" href="#kontak">Kontak Kami</a>
+        </li>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Ekstrakulikuler">Staff</a>
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#kontak">Kontak kami</a>
-      
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
   </div>
 </nav>
+
 <div class="container-fluid banner">
   <div class="container text-center">
     <h4 class="display-6">selamat datang di website kami</h4>
@@ -56,7 +78,7 @@
 
       <!-- Foto Kepala Sekolah -->
       <div class="col-md-4 text-center mb-4 mb-md-0">
-        <img src="img/bapa.JPG" 
+        <img src="bapa.JPG" 
              class="img-fluid rounded-circle shadow-sm" 
              alt="Kepala Sekolah" 
              style="max-width:300px; border:8px solid #e5e7eb;">
@@ -94,7 +116,7 @@
   </div>
 </div>
 
-
+<!-- JURUSAN -->
 <div class="container-fluid pt-5 pb-5" style="background-color:#ffffff;">
   <div class="container text-center">
     <h2 class="display-3" id="jurusan">Jurusan</h2>
@@ -102,7 +124,7 @@
 
       <div class="col-md-2 col-6 mb-4">
         <div class="lingkaran mb-3">
-          <img src="img/tjkt.XeO8V4_I.png" alt="TKJ" class="img-fluid" />
+          <img src="tjkt.XeO8V4_I.png" alt="TKJ" class="img-fluid" />
         </div>
         <h5 class="fw-bold">TKJ</h5>
         <p>Teknik Komputer dan Jaringan</p>
@@ -110,7 +132,7 @@
 
       <div class="col-md-2 col-6 mb-4">
         <div class="lingkaran mb-3">
-          <img src="img/rpl.png" alt="PPLG" class="img-fluid" />
+          <img src="rpl.png" alt="PPLG" class="img-fluid" />
         </div>
         <h5 class="fw-bold">PPLG</h5>
         <p>Pengembangan Perangkat Lunak dan Gim</p>
@@ -118,7 +140,7 @@
 
       <div class="col-md-2 col-6 mb-4">
         <div class="lingkaran mb-3">
-          <img src="img/tbsm.5YZNeyvV.png" alt="TSM" class="img-fluid" />
+          <img src="tbsm.5YZNeyvV.png" alt="TSM" class="img-fluid" />
         </div>
         <h5 class="fw-bold">TSM</h5>
         <p>Teknik Sepeda Motor</p>
@@ -126,7 +148,7 @@
 
       <div class="col-md-2 col-6 mb-4">
         <div class="lingkaran mb-3">
-          <img src="img/dkv.Btdc-HP2.png" alt="DKV" class="img-fluid" />
+          <img src="dkv.Btdc-HP2.png" alt="DKV" class="img-fluid" />
         </div>
         <h5 class="fw-bold">DKV</h5>
         <p>Desain Komunikasi Visual</p>
@@ -134,7 +156,7 @@
 
       <div class="col-md-2 col-6 mb-4">
         <div class="lingkaran mb-3">
-          <img src="img/toi.BFD6ZBmB.png" alt="TOI" class="img-fluid" />
+          <img src="toi.BFD6ZBmB.png" alt="TOI" class="img-fluid" />
         </div>
         <h5 class="fw-bold">TOI</h5>
         <p>Teknik Otomasi Industri</p>
@@ -144,7 +166,7 @@
   </div>
 </div>
 
-        
+        <!-- KEGIATAN -->
 <div class="container-fluid pt-5 pb-5">
     <div class="container text-center">
         <h2 class="display-3" id="kegiatan">Kegiatan</h2>
@@ -153,21 +175,21 @@
 </div> 
         <div class="row justify-content-evenly pt-4">
         <div class="card" style="width: 20rem;">
-  <img src="img/IMG_20250804_065900_791.jpg" class="card-img-top" alt="...">
+  <img src="IMG_20250804_065900_791.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title text-center">Upacara Kemerdekaan</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
   </div>
 </div>
 <div class="card" style="width: 20rem;">
-  <img src="img/DSC02323.JPG" class="card-img-top" alt="...">
+  <img src="DSC02323.JPG" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title text-center">Pengajian</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
   </div>
 </div>
 <div class="card" style="width: 20rem;">
-  <img src="img/mbg.jpg" class="card-img-top" alt="...">
+  <img src="mbg.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title text-center">Makan Bergizi Gratis</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
@@ -175,6 +197,7 @@
 </div>
   </div>
 
+   <!-- Tentang kami -->
   <footer class="pt-5 pb-3" style="background-color:#f9fafb; border-top:1px solid #e5e7eb;">
   <div class="container">
      <h2 class="display-3" id="kontak"></h2>
@@ -228,6 +251,8 @@
     <p class="mb-0 text-muted">© 2025. SMK Negeri 4 Tasikmalaya. <br> All rights reserved.</p>
   </div>
 </footer>
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
